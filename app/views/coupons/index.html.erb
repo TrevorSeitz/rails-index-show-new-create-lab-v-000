@@ -1,5 +1,13 @@
 <div>
+<<<<<<< HEAD
   <%= @coupons.each do |coupon| %>
     <%= link_to coupon.coupon_code, coupon_path(coupon) %>
+=======
+  <%byebug%>
+  <%= @coupons.each do |coupon| %>
+  <%byebug%>
+
+    <div><%= link_to coupon.coupon_code, coupon_path(coupon) %></div>
+>>>>>>> 2889cec72135a8652c3ffb6a088b32fc2eebbe68
   <% end %>
 </div>
